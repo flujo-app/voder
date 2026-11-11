@@ -136,3 +136,6 @@ The 45 tests cover text and pronunciation handling, waveform pitch, fricatives, 
 - Clear follows the general [formant source/filter approach](https://dsprelated.com/freebooks/pasp/Formant_Synthesis_Models.html). Separate voicing/frication paths are also described in [Klatt's 1980 paper](https://www.fon.hum.uva.nl/david/ma_ssp/doc/Klatt-1980-JAS000971.pdf). This is not a full Klatt synthesizer.
 - [CMU Pronouncing Dictionary](https://github.com/cmusphinx/cmudict) supplies pronunciations, not audio. Its license is preserved in `voder/data/CMUDICT-LICENSE`; `voder/data/SOURCE` records the vendored revision.
 
+## License
+
+MIT, see [LICENSE](LICENSE). The bundled CMU Pronouncing Dictionary keeps its own license in `voder/data/CMUDICT-LICENSE`.

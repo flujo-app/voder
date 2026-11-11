@@ -7,6 +7,7 @@ name = "voder-speech"
 version = "0.4.0"
 description = "An offline, Voder-inspired English text-to-speech synthesizer"
 requires-python = ">=3.10"
+license = { text = "MIT" }
 dependencies = ["numpy>=1.24", "scipy>=1.10"]
 
 [project.scripts]
