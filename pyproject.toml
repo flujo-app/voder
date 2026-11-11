@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voder-speech"
+version = "0.4.0"
+description = "An offline, Voder-inspired English text-to-speech synthesizer"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.scripts]
+voder = "voder.cli:main"
+voder-studio = "voder.webstudio:main"
+
+[tool.setuptools.packages.find]
+include = ["voder*"]
+
+[tool.setuptools.package-data]
+voder = ["data/*", "web/*"]
